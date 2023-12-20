@@ -6,7 +6,7 @@
 //
 // Version: 1.0
 //
-// Description: 
+// Description: This is the header file for the Motor class. It contains the class definition and the function prototypes.
 //
 
 #pragma once

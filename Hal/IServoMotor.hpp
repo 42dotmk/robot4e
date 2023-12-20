@@ -1,8 +1,13 @@
+// File: IServoMotor.hpp
 //
-// Created by vasilaki on 20.12.23.
+// Author: Vasilaki Tocili
+//
+// Date: 20.12.23
+//
+// Version: 1.0
+//
+// Description: This header file contains the definitions and function declarations for the IServoMotor class.
 //
 
-#ifndef ISERVOMOTOR_HPP
-#define ISERVOMOTOR_HPP
+#pragma once
 
-#endif //ISERVOMOTOR_HPP

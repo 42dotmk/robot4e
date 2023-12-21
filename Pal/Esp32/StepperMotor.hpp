@@ -6,13 +6,20 @@
 //
 // Version: 1.0
 //
-// Description: 
+// Description: StepperMotor class for Esp32 platform implementation.
 //
 
 #pragma once
 
 
+namespace Robot4e::Pal::Esp32
+{
+    class StepperMotor: public Robot4e::Hal::IStepperMotor
+    {
+    public:
+        StepperMotor();
+        ~StepperMotor() = default;
 
-class StepperMotor {
-
-};
+        void SetAngle(std::int16_t Angle) final;
+    };
+}

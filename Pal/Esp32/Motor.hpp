@@ -6,13 +6,19 @@
 //
 // Version: 1.0
 //
-// Description: This is the header file for the Motor class. It contains the class definition and the function prototypes.
+// Description: Motor class for Esp32 platform implementation.
 //
 
 #pragma once
 
+namespace Robot4e::Pal::Esp32
+{
+    class Motor: public Robot4e::Hal::IMotor
+    {
+    public:
+        Motor();
+        ~Motor() = default;
 
-
-class Motor {
-
-};
+        void SetAngle(std::int16_t Angle);
+    };
+}

@@ -6,9 +6,19 @@
 //
 // Version: 1.0
 //
-// Description: This header file contains the definitions and function declarations for the IStepperMotor class.
+// Description: Interface for stepper motor control of the robot arm and the robot base motors.
 //
 
 #pragma once
 
 
+namespace Robot4e::Hal
+{
+    class IStepperMotor: public Robot4e::Hal::IMotor
+    {
+    public:
+        virtual ~IStepperMotor() = default;
+
+
+    };
+}

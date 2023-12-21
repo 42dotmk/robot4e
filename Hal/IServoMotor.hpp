@@ -6,8 +6,18 @@
 //
 // Version: 1.0
 //
-// Description: This header file contains the definitions and function declarations for the IServoMotor class.
+// Description: Interface for servo motor control of the robot arm and the robot base motors.
 //
 
 #pragma once
 
+namespace Robot4e::Hal
+{
+    class IServoMotor: public Robot4e::Hal::IMotor
+    {
+    public:
+        virtual ~IServoMotor() = default;
+
+
+    };
+}

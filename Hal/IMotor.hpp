@@ -6,7 +6,7 @@
 //
 // Version: 1.0
 //
-// Description: This header file contains the definitions and function declarations for the IMotor class.
+// Description: Interface for motor control of the robot arm and the robot base motors.
 //
 
 #pragma once
